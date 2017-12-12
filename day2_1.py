@@ -8,8 +8,6 @@ for line in open("./input_day2.txt").readlines():
 	line = [int(x) for x in line]
 	mins = min(line)
 	maxs = max(line)
-	print(maxs, mins)
 	result = result + (maxs-mins)
-	print(result)
 
 print(result)
